@@ -1,0 +1,9 @@
+// Create a Farmer
+
+CREATE (farmer:Farmer {name: 'Farmer3'})
+RETURN farmer
+
+// Return all farmers
+
+MATCH (p:Farmer)
+RETURN p

@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 from py2neo import Graph
-g = Graph("neo4j+s://88430ba4.databases.neo4j.io", auth=("neo4j", "Q6aHR0gm2yFXyz2tndqEPOFLsi9JwHGfNYww3zZ1ySQ"))
+g = Graph("bolt://localhost:7687", auth=("neo4j", "password"))
 
 app = Flask(__name__)
 CORS(app=app)

@@ -1,0 +1,27 @@
+body {
+	background-color: #efefef;
+}
+
+.main {
+	width: 100vw;
+	height: 120vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.tablecont {
+	width: 80vw;
+	height: 300px;
+	overflow: scroll;
+	border: 1px solid;
+} 
+
+.heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}
